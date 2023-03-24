@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>musicList</title>
+    <link rel="stylesheet" href="https://o289.github.io/audioList/style.css">
+</head>
+<body>
+    <div id="stop"></div>
+    <div class="song">応援歌</div>
+    <div class="RootersSong">
+        <button id="imaoka_button">今岡誠（1作目）</button>
+        <button id="mayumi_button">真弓明信</button>
+        <button id="hiyama_button">桧山進次郎</button>
+        <button id="Chance2_button">チャンス襲来(阪神タイガースチャンステーマ)</button>
+        <button id="ogata_button">緒方孝市</button>
+        <button id="maeda_button">前田智徳（3作目）</button>
+        <button id="arai_button">新井貴浩（広島）（2作目）</button>
+        <button id="ishii_button">石井琢朗</button>
+        <button id="haru_button">波瑠敏夫（横浜）</button>
+        <button id="rose_button">ロバート・ローズ </button>
+        <button id="fukudome_button">福留孝介(中日)（旧）</button>
+        <button id="sekikawa_button">関川浩一(中日)</button>
+        <button id="Chance_button">狙い撃ち（中日ドラゴンズチャンステーマ）</button>
+        <button id="takahashi_button">高橋由伸</button>
+        <button id="shibahara_button">柴原洋</button>
+        <button id="iguchi_button">井口忠仁（ホークス）</button>
+        <button id="Chance5_button">藤本チャンステーマ</button>
+        <button id="yamakawa_button">山川穂高</button>
+        <button id="Chance4_button">チャンス4（埼玉西武ライオンズ）</button>
+        <button id="nishioka_button">西岡剛（2作目）</button>
+        <button id="Chance3_button">チャンス1（千葉ロッテマリーンズ）</button>
+        <button id="ohmura_button">大村直之</button>
+        <button id="nakamura_button">中村紀洋（近鉄）</button>
+        <button id="ogasawara_button">小笠原道大 (日本ハム)</button>
+        <button id="itoi_button">糸井嘉男(オリックス)</button>
+    </div>
+    <div class="bgm">BGM</div>
+    <div class="BGM">
+        <button id="spectreButton">spectre</button>
+        <button id="MetaKnightStrikesBackButton">メタナイトの逆襲</button>
+        <button id="terminusButton">スマブラX（終点）</button>
+        <button id="SuperBellHillButton">スーパーベルの丘(スーパーマリオ3Dワールド)</button>
+        <button id="ChampionRoadButton">チャンピオンシップロード（スーパーマリオ3Dワールド）</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            // 応援歌
+            $('.RootersSong').css("display", "none")
+            $('.song').on('click', function(){
+                $(this).next().slideToggle();
+            });
+            // BGM
+            $('.BGM').css("display", "none")
+            $('.bgm').on('click', function(){
+                $(this).next().slideToggle();
+            });
+        });
+    </script>
+    <script src="https://o289.github.io/audioList/index.js"></script>
+</body>
+</html>

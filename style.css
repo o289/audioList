@@ -1,0 +1,120 @@
+@charset  "UTF-8";
+body{
+    margin: 0;
+}
+button{
+    display: block;
+    text-align: center;
+    width: 80%;
+    max-width: 1100px;
+    margin: 5.5% auto;
+    padding: 30px 0;
+}
+/* クラス */
+.song{
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    width: 90%;
+    max-width: 1300px;
+    margin: 5.5% auto 0;
+    padding: 40px 0;
+}
+.RootersSong{
+    background-color: rgb(255, 157, 157);
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.bgm{
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    width: 90%;
+    max-width: 1300px;
+    margin: 5.5% auto 0;
+    padding: 40px 0;
+}
+.BGM{
+    background-color: rgb(157, 164, 255);
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+/* ID */
+
+#nishioka_button,
+#Chance3_button{
+    background-color: #000;
+    color: #fff;
+}
+#nakamura_button,
+#ohmura_button{
+    background-color: #000;
+    border: 3px solid red;
+    color: #fff;
+}
+
+#ogata_button,
+#maeda_button,
+#arai_button{
+    background-color: red;
+    color: #fff;
+}
+#Chance_button,
+#fukudome_button,
+#sekikawa_button{
+    background-color: rgb(16, 0, 159);
+    color: #fff;
+}
+#itoi_button{
+    background-color: rgb(1, 1, 77);
+    border: 3px solid goldenrod;
+    color: #fff;
+}
+#haru_button,
+#rose_button,
+#ishii_button{
+    background-color: blue;
+    color: #fff;
+}
+#yamakawa_button,
+#Chance4_button{
+    background-color: rgb(0, 119, 255);
+    color: #fff;
+}
+#shibahara_button,
+#iguchi_button,
+#Chance5_button{
+    background-color: orangered;
+    color: #fff;
+}
+#takahashi_button{
+    background-color: #000;
+    border: 3px solid orangered;
+    color: #fff;
+}
+#ogasawara_button{
+    background-color: #000;
+    border: 0;
+    color: #fff;
+}
+#imaoka_button,
+#Chance2_button,
+#mayumi_button,
+#hiyama_button{
+    background-color: yellow;
+}
+/* 音楽を止めるボタン */
+#stop{
+    background-image: url(./img/cross_24.svg);
+    background-color: #ddd;
+    margin: 5% auto 0;
+    width: 40px;
+    height: 40px;
+}
+#stop:hover{
+    background-color: rgb(117, 117, 117);
+}
